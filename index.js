@@ -22,7 +22,11 @@ $(".btn").click(function () {
             percent = 0;
         }
     } else {
-        percent = Math.floor(n * 100 + 1);
+        if ((input2 === "lala") || (input2 === "rustam")) {
+            percent = 0;
+        } else {
+            percent = Math.floor(n * 100 + 1);
+        }
     }
 
     /*initial code
