@@ -8,7 +8,7 @@ $(".btn").click(function () {
     let input2 = yourLover.val().toLowerCase()
     let percent;
 
-    // Readible verion for logic
+    // Readible version
     if (input1 === "lala") {
         if (input2 === "rustam") {
             percent = 100;
